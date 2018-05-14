@@ -1,4 +1,3 @@
-//Creation de la grille
 (function ($) {
   $.fn.DeuxMille48 = function () {
     $(document).ready(function () {
@@ -55,7 +54,6 @@
         location.reload();
       });
 
-      //FUNCTIONS
       var hasMoved = false;
       function animateMerge(div){
         div.animate({paddingRight: 10}, 50);
@@ -269,8 +267,6 @@
           }
         }
       }
-
-      //MOVES
 
       function randomNumber(max) {
         return Math.floor((Math.random() * (max)) + 1);
